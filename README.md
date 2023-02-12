@@ -26,7 +26,7 @@ I used two sentences from a recent Discover call (DFS) ... one guidance and one 
 
 ![image](https://user-images.githubusercontent.com/39496491/218327367-df3761cb-680e-423f-8d8b-d0fcef27accc.png)
 
-I then used completion = openai.Completion.create(engine="text-curie-001", prompt=guidance_example,max_tokens=240) to create 500 "guidance" sentences and 500 "not guidance" sentences.
+I then used completion = openai.Completion.create(engine="text-curie-001", prompt=guidance_example,max_tokens=240) to <b>generate</b> 500 "guidance" sentences and 500 "not guidance" sentences using these two sentences as seeds for ChatGPT.
 
 This took about a half hour to run, and repeated runs ended up costing me about $17.00 for my API developer key usage for the day.  
 You can save $17 by skipping this step and using the generated_snippets.csv file in this git.
