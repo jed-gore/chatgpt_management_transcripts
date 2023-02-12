@@ -54,7 +54,7 @@ As I feared, the RF model classed the majority of management statements as "guid
   
 ![image](https://user-images.githubusercontent.com/39496491/218328436-d88132ee-54b7-4f8e-b5fa-56c8313e6329.png)
 
-I then used the LR model in order to rank order the snippets, and the results were ... not too bad!
+I then used the LR model in order to rank order the snippets, and the results were more useful.
 
 ![image](https://user-images.githubusercontent.com/39496491/218328476-19d04e88-4002-4be8-bc67-8fdc18be291a.png)
 
