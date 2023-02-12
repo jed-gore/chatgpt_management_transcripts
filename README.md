@@ -31,7 +31,7 @@ I then used completion = openai.Completion.create(engine="text-curie-001", promp
 This took about a half hour to run, and repeated runs ended up costing me about $17.00 for my API developer key usage for the day.  
 You can save $17 by skipping this step and using the generated_snippets.csv file in this git.
   
-Interestingly, the results were, I thought, fairly realistic.  ChatGPT is impressive.
+Interestingly, the results were, I thought, fairly realistic.  ChatGPT is impressive.  All of the snippets below are generated text.
 
 ![image](https://user-images.githubusercontent.com/39496491/218328051-b8cc4b4e-fbf3-48d6-94a8-56738f9a7fb7.png)
 
