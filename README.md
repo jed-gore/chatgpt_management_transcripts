@@ -16,9 +16,9 @@ Often in the real world we're trying to train on no-label data, particularly in 
 So I set about trying to use ChatGPT to skip the 50,000 lines of tagging part of the "is it guidance" project.
 
 ## User Story:<BR>
-AS A financial analyst<BR>
-I WANT TO score guidance sentences in transcripts <BR>
-SO THAT I can save time reading the whole transcript and don't miss market moving text <BR>
+<b>AS</b> A financial analyst<BR>
+<b>I WANT TO</b> score guidance sentences in transcripts <BR>
+<b>SO THAT</b> I can save time reading the whole transcript and don't miss market moving text <BR>
 
 # PROCESS
 
