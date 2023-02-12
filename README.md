@@ -49,7 +49,7 @@ I used Capital One's most recent conference call transcript, filtered (by hand) 
 
 ![image](https://user-images.githubusercontent.com/39496491/218328386-2300ebd1-7b4a-4927-b6de-cd56f84b15a7.png)
 
-As I feared, the RF model classed the majority of management statements as "guidance".  This is a Type 1 Error which probably falls out from the domain-specific issue of "guidance" vs ChatGPT being more generally trained.  Also, the English language doesn't have a future tense - a quirk which bedeviled my work in this area in prior years and which makes simple "tense" classifiers inaccurate in practice.  
+As I feared, the RF model classed the majority of management statements as "guidance".  This is a Type 1 Error which probably falls out from the domain-specific issue of "financial guidance" vs ChatGPT being more generally trained language model.  Also, the English language doesn't actually have a future tense - a strange quirk which bedeviled my work in this area in prior years and which makes simple "tense" classifiers inaccurate in practice in English.  
   
 ![image](https://user-images.githubusercontent.com/39496491/218328436-d88132ee-54b7-4f8e-b5fa-56c8313e6329.png)
 
