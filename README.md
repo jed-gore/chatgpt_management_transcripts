@@ -13,7 +13,7 @@ https://towardsdatascience.com/hands-on-sentiment-analysis-on-hotels-reviews-usi
 
 Often in the real world we're trying to train on no-label data, particularly in specialized fields like investing.  There are techniques for dealing with this like zero-shot classification and data augmentation, but I found the ChatGPT angle of interest - could it live up to the hype?
 
-So I set about trying to use ChatGPT to skip the 50,000 lines of tagging part of the "is it guidance" project.
+So I set about trying to use ChatGPT to skip the 50,000 lines of tagging part of the "is it guidance" project, and see if the process Piero outlined could render useful results in a more specific problem than simple sentiment scoring.
 
 ## User Story:<BR>
 <b>AS</b> A financial analyst<BR>
