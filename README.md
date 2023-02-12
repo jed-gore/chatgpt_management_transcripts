@@ -49,7 +49,7 @@ I used Capital One's most recent conference call transcript, filtered (by hand) 
 
 ![image](https://user-images.githubusercontent.com/39496491/218328386-2300ebd1-7b4a-4927-b6de-cd56f84b15a7.png)
 
-As I feared, the RF model classed the majority of management statements as "guidance".
+As I feared, the RF model classed the majority of management statements as "guidance".  This is a Type 1 Error which probably falls out from the verbosity inerent in ChatGPT (which is known for making things up).  That is to say, ChatGPT has all the faults of its qualities.
 
 ![image](https://user-images.githubusercontent.com/39496491/218328436-d88132ee-54b7-4f8e-b5fa-56c8313e6329.png)
 
