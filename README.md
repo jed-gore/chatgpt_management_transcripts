@@ -18,7 +18,7 @@ So I set about trying to use ChatGPT to skip the 50,000 lines of tagging part of
 ## User Story:<BR>
 <b>AS</b> A financial analyst<BR>
 <b>I WANT TO</b> score guidance sentences in transcripts <BR>
-<b>SO THAT</b> I can save time reading the whole transcript and don't miss market moving text <BR>
+<b>SO THAT</b> I can save time reading the whole transcript and don't miss market moving statements <BR>
 
 # PROCESS
 
