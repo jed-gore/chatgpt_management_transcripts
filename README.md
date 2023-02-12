@@ -4,7 +4,7 @@
 
 Back in 2018 - 2019 I worked on training Machine Learning models to predict which sentences in company conference call transcripts were likely to be "guidance" or forward looking statements.  
 
-The most challenging part of the project editing Excel files with 50,000 lines of text and flagging each sentence as "guidance" or "not guidance".  This was done to have a training set that could then be used to train the ML model.
+The most challenging part of the project was editing Excel files with 50,000 lines of text and flagging each sentence as "guidance" or "not guidance".  This was done to have a training set that could then be used to train the ML model.
 
 It was a mind numbing job that took several weeks.  In general, data tagging for machine learning is both incredibly important to get right, and incredibly expensive in terms of time, particularly if domain knowledge is required.
 
