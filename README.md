@@ -1,4 +1,4 @@
-# A test using ChatGPT to generate substitute data for language model classifier training
+# Using ChatGPT to generate substitute data for language model classifier training
 
 # PROBLEM
 
