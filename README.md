@@ -8,7 +8,7 @@ The most challenging part of the project editing Excel files with 50,000 lines o
 
 It was a mind numbing job that took several weeks.  In general, data tagging for machine learning is both incredibly important to get right, and incredibly expensive in terms of time, particularly if domain knowledge is required.
 
-Recently I ran across an article by Piero Paialunga who used ChatGPT for <b>substitute data<b> - i.e. substitute tagging - for sentiment analysis:
+Recently I ran across an article by Piero Paialunga who used ChatGPT for <b>substitute data</b> - i.e. substitute tagging - for sentiment analysis:
 https://towardsdatascience.com/hands-on-sentiment-analysis-on-hotels-reviews-using-artificial-intelligence-and-open-ais-chatgpt-d1939850c79e
 
 Often in the real world we're trying to train on no-label data, particularly in specialized fields like investing.  There are techniques for dealing with this like zero-shot classification and data augmentation, but I found the ChatGPT angle of interest - could it live up to the hype?
