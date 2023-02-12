@@ -41,7 +41,7 @@ As you might expect from ChatGPT the fits were good for both models:
 
 ![image](https://user-images.githubusercontent.com/39496491/218328318-81af1c14-78c0-42c7-9e2e-feb451797c61.png)
 
-Next I wanted to try these models on raw data.  Into the wild we go:
+Next I wanted to try these models on raw data.  <b>Into the wild we go:</b>
 
 # CONCLUSION
 
