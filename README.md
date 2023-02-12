@@ -11,7 +11,7 @@ It was a mind numbing job that took several weeks.
 Recently I ran across an article by Piero Paialunga who used ChatGPT for substitute data for sentiment analysis:
 https://towardsdatascience.com/hands-on-sentiment-analysis-on-hotels-reviews-using-artificial-intelligence-and-open-ais-chatgpt-d1939850c79e
 
-Often in the real world we're trying to train on no-label data, particularly in specialized fields like investing.  There are techniquest for dealing with this like zero-shot classification and data augmentation, but I found the ChatGPT angle of interest - could it live up to the hype?
+Often in the real world we're trying to train on no-label data, particularly in specialized fields like investing.  There are techniques for dealing with this like zero-shot classification and data augmentation, but I found the ChatGPT angle of interest - could it live up to the hype?
 
 So I set about trying to use ChatGPT to skip the 50,000 lines of tagging part of the "is it guidance" project.
 
