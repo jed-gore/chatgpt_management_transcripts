@@ -57,7 +57,7 @@ So I then used the LR model in order to rank order the snippets, and the results
 
 ![image](https://user-images.githubusercontent.com/39496491/218328476-19d04e88-4002-4be8-bc67-8fdc18be291a.png)
 
-TLDR: The results filtered out via LR were not too bad, though I'd want to spend a LOT more time thinking about the problem.  
+<b>TLDR</b>: The results filtered out via LR were not too bad, though I'd want to spend a LOT more time thinking about the problem.  
   
 Is this really a SUMMARIZATION problem not a CLASSIFICATION problem per se?  
   
