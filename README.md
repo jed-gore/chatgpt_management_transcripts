@@ -4,9 +4,9 @@
 
 Back in 2018 - 2019 I worked on training Machine Learning models to predict which sentences in company conference call transcripts were likely to be "guidance" or forward looking statements.  
 
-The worst part of the job was spending several weeks editing Excel files with 50,000 lines of text and flagging each sentence as "guidance" or "not guidance".  This was done to have a training set that could then be used to train the ML model.
+The most challenging part of the project editing Excel files with 50,000 lines of text and flagging each sentence as "guidance" or "not guidance".  This was done to have a training set that could then be used to train the ML model.
 
-It was a mind numbing job that took several weeks.
+It was a mind numbing job that took several weeks.  In general, data tagging for machine learning is both incredibly important to get right, and incredibly expensive in terms of time, particularly if domain knowledge is required.
 
 Recently I ran across an article by Piero Paialunga who used ChatGPT for substitute data for sentiment analysis:
 https://towardsdatascience.com/hands-on-sentiment-analysis-on-hotels-reviews-using-artificial-intelligence-and-open-ais-chatgpt-d1939850c79e
@@ -15,7 +15,7 @@ Often in the real world we're trying to train on no-label data, particularly in 
 
 So I set about trying to use ChatGPT to skip the 50,000 lines of tagging part of the "is it guidance" project.
 
-In a formal Acceptance Criteria statement:
+In a formal Acceptance Criteria statement:<BR>
 AS A financial analyst
 I WANT TO score guidance sentences in transcripts 
 SO THAT I can save time reading the whole transcript and don't miss market moving text 
@@ -30,6 +30,8 @@ I then used completion = openai.Completion.create(engine="text-curie-001", promp
 
 This took about a half hour to run, and repeated runs ended up costing me about $17.00 for my API developer key usage for the day.  
 You can save $17 by skipping this step and using the generated_snippets.csv file in this git.
+  
+Interestingly, the results were, I thought, fairly realistic.  ChatGPT is impressive.
 
 ![image](https://user-images.githubusercontent.com/39496491/218328051-b8cc4b4e-fbf3-48d6-94a8-56738f9a7fb7.png)
 
