@@ -29,7 +29,7 @@ I used two sentences from a recent Discover call (DFS) ... one guidance and one 
 I then used completion = openai.Completion.create(engine="text-curie-001", prompt=guidance_example,max_tokens=240) to <b>generate</b> 500 "guidance" sentences and 500 "not guidance" sentences using these two sentences as seeds for ChatGPT.
 
 This took about a half hour to run, and repeated runs ended up costing me about $17.00 for my API developer key usage for the day.  
-But you can save $17.00 by skipping this step and using the generated_snippets.csv file in this repo.
+But you can save $17.00 by skipping this step and using the generated_snippets.csv file in this repo!
   
 Interestingly, the results were, I thought, fairly realistic.  ChatGPT is impressive.  All of the snippets below are generated text.
 
@@ -45,16 +45,15 @@ Next I wanted to try these models on raw data.  <b>Into the wild we go:</b>
 
 # CONCLUSION
 
-I used Capital One's most recent conference call transcript, filtered (by hand) down to just management talking.
+I used anther credit card company's - Capital One (COF) - most recent conference call transcript, filtered (by hand) down to just management talking to see if our DFS based classifier would carry over.
 
 ![image](https://user-images.githubusercontent.com/39496491/218328386-2300ebd1-7b4a-4927-b6de-cd56f84b15a7.png)
 
-As I feared, the RF model classed the majority of management statements as "guidance".  
-(This is a Type 1 Error which probably falls out from the domain-specific issue of "financial guidance" vs ChatGPT being a more generally trained language model.  Also, the English language doesn't actually have a future tense - a strange quirk which bedeviled my work in this area in prior years and which makes simple "tense" classifiers inaccurate in practice in English.)
+As I feared, the RF model classed a majority of management statements as "guidance"*, likely more than would be validated by a domain expert.
   
 ![image](https://user-images.githubusercontent.com/39496491/218328436-d88132ee-54b7-4f8e-b5fa-56c8313e6329.png)
 
-I then used the LR model in order to rank order the snippets, and the results were more useful.
+Therefore, I then used the LR model in order to rank order the snippets, and the results were more useful.
 
 ![image](https://user-images.githubusercontent.com/39496491/218328476-19d04e88-4002-4be8-bc67-8fdc18be291a.png)
 
@@ -66,6 +65,7 @@ Might it make sense to evaluate statements in context vs as individual tokens?  
 
 All these questions to be explored in future!
 
+* Bias towards Type 1 Errors probably falls out from the domain-specific issue of "financial guidance" vs ChatGPT being a more generally trained language model, that is, while this approach is probably good for broad sweeps like "sentiment", something more domain specific is challenging.  Also, the English language doesn't actually have a future tense, a strange quirk which bedeviled my work in this area in prior years and which makes simple "tense" classifiers (if that's what this process was yielding under the hood) inaccurate in practice.
 
 
 
