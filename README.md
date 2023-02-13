@@ -49,7 +49,7 @@ I used anther credit card company's - Capital One (COF) - most recent conference
 
 ![image](https://user-images.githubusercontent.com/39496491/218328386-2300ebd1-7b4a-4927-b6de-cd56f84b15a7.png)
 
-As I feared, the RF model classed a majority of management statements as "guidance"*, likely more than would be validated by a domain expert.
+As I feared, the RF model classed a majority of management statements as "guidance"1, likely more than would be validated by a domain expert looking at the text.
   
 ![image](https://user-images.githubusercontent.com/39496491/218328436-d88132ee-54b7-4f8e-b5fa-56c8313e6329.png)
 
@@ -65,7 +65,7 @@ Might it make sense to evaluate statements in context vs as individual tokens?  
 
 All these questions to be explored in future!
 
-* Bias towards Type 1 Errors probably falls out from the domain-specific issue of "financial guidance" vs ChatGPT being a more generally trained language model, that is, while this approach is probably good for broad sweeps like "sentiment", something more domain specific is challenging.  Also, the English language doesn't actually have a future tense, a strange quirk which bedeviled my work in this area in prior years and which makes simple "tense" classifiers (if that's what this process was yielding under the hood) inaccurate in practice.
+1. <i>Bias towards Type 1 Errors probably falls out from the domain-specific issue of "financial guidance" vs ChatGPT being a more generally trained language model, that is, while this approach is probably good for broad sweeps like "sentiment", something more domain specific is challenging.  Also, the English language doesn't actually have a future tense, a strange quirk which bedeviled my work in this area in prior years and which makes simple "tense" classifiers (if that's what this process was yielding under the hood) inaccurate in practice.
 
 
 
